@@ -4,8 +4,9 @@
   "version": "1.0.0",
   "description": "Website von Jesse Keller - Unterlagen und Software",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "astro dev --host",
+    "build:music": "mkdir -p public/musik && for f in music-sources/*.ly; do lilypond -o \"public/musik/$(basename \"${f%.ly}\")\" \"$f\"; done",
+    "build": "npm run build:music && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },

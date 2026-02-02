@@ -30,12 +30,12 @@ import Card from '../components/Card.astro';
           an der Freien Waldorfschule Hannover Maschsee.
         </Card>
         <Card title="Lilypond-Quelldateien" icon="📝">
-          Alle Noten sind als Lilypond-Quelldateien verfügbar,
+          Alle Noten sind als Lilypond-Quelldateien auf GitHub verfügbar,
           sodass du sie bearbeiten und anpassen kannst.
         </Card>
-        <Card title="MIDI-Dateien" icon="🎵">
-          Zu vielen Stücken gibt es auch MIDI-Dateien zum Anhören
-          und Üben.
+        <Card title="PDF-Noten" icon="📄">
+          Die Noten werden automatisch aus den Quelldateien generiert
+          und können direkt angesehen oder heruntergeladen werden.
         </Card>
       </div>
     </div>
@@ -52,20 +52,24 @@ import Card from '../components/Card.astro';
         </p>
         <div class="flex flex-wrap gap-2">
           <a
-            href="/musik/der-winter-ist-ein-rechter-mann.ly"
-            download
+            href="https://github.com/jefroke/website/blob/main/music-sources/der-winter-ist-ein-rechter-mann.ly"
+            target="_blank"
+            rel="noopener"
             class="inline-flex items-center gap-2 px-3 py-1.5 bg-slate-100 hover:bg-slate-200 rounded-lg text-sm transition-colors"
           >
-            🎼 Lilypond (.ly)
+            🎼 Quelldatei (.ly)
           </a>
           <a
-            href="/musik/der-winter-ist-ein-rechter-mann.midi"
+            href="/musik/der-winter-ist-ein-rechter-mann.pdf"
             download
             class="inline-flex items-center gap-2 px-3 py-1.5 bg-slate-100 hover:bg-slate-200 rounded-lg text-sm transition-colors"
           >
-            🎵 MIDI
+            📄 PDF
           </a>
         </div>
+        <a href="/musik" class="text-primary-600 hover:text-primary-700 text-sm mt-4 inline-block">
+          Alle Stücke ansehen →
+        </a>
       </div>
     </div>
   </section>

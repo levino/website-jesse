@@ -3,7 +3,7 @@ name = "jesse-keller-website"
 compatibility_date = "2025-12-28"
 
 [build]
-command = "npm run build"
+command = "bash scripts/build.sh"
 
 [assets]
 directory = "./dist"

@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import FileDownload from '../components/FileDownload.astro';
+import SheetMusic from '../components/SheetMusic.astro';
 ---
 
 <Layout title="Musik" description="Lilypond-Dateien und Musiknoten von Jesse Keller">
@@ -8,7 +8,7 @@ import FileDownload from '../components/FileDownload.astro';
     <div class="container-narrow">
       <h1 class="text-3xl sm:text-4xl font-bold mb-4">Musik</h1>
       <p class="text-lg text-slate-600 mb-8">
-        Hier findest du Lilypond-Dateien mit Musikstücken aus meinem Unterricht
+        Hier findest du Musiknoten aus meinem Unterricht
         an der Freien Waldorfschule Hannover Maschsee.
       </p>
 
@@ -16,21 +16,19 @@ import FileDownload from '../components/FileDownload.astro';
         <h2 class="font-semibold text-primary-900 mb-2">Was ist Lilypond?</h2>
         <p class="text-sm text-primary-800">
           <a href="https://lilypond.org" class="link" target="_blank" rel="noopener">Lilypond</a>
-          ist eine freie Notensatz-Software. Mit den .ly-Dateien kannst du die Noten
-          selbst bearbeiten und als PDF oder MIDI exportieren.
+          ist eine freie Notensatz-Software. Die Quelldateien (.ly) sind auf GitHub verlinkt,
+          damit du die Noten selbst bearbeiten kannst.
         </p>
       </div>
 
       <h2 class="text-2xl font-bold mb-6">Stücke</h2>
 
-      <div class="space-y-4">
-        <FileDownload
+      <div class="space-y-8">
+        <SheetMusic
           title="Der Winter ist ein rechter Mann"
           description="Komponist: P. Appenzeller | Text: M. Claudius — Für zwei Violinen und Gesang, 7 Strophen."
-          files={[
-            { name: "Lilypond (.ly)", path: "/musik/der-winter-ist-ein-rechter-mann.ly", type: "ly" },
-            { name: "MIDI", path: "/musik/der-winter-ist-ein-rechter-mann.midi", type: "midi" }
-          ]}
+          pdfPath="/musik/der-winter-ist-ein-rechter-mann.pdf"
+          sourceUrl="https://github.com/jefroke/website/blob/main/public/musik/der-winter-ist-ein-rechter-mann.ly"
         />
       </div>
 
