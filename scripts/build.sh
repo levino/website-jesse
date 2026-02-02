@@ -47,9 +47,9 @@ if ! command -v pdflatex &> /dev/null; then
     # Add to PATH
     export PATH="$TINYTEX_DIR/bin/x86_64-linux:$PATH"
 
-    # Install additional packages needed for German documents
+    # Install additional packages needed for German documents and lilypond-book
     if command -v tlmgr &> /dev/null; then
-        tlmgr install babel-german hyphen-german 2>/dev/null || true
+        tlmgr install babel-german hyphen-german parskip graphics 2>/dev/null || true
     fi
 fi
 
