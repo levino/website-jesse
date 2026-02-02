@@ -38,9 +38,18 @@ fi
 
 # Check if pdflatex is available (needed for lilypond-book)
 if ! command -v pdflatex &> /dev/null; then
-    echo "Installing TeX Live (basic)..."
-    if command -v apt-get &> /dev/null; then
-        apt-get install -y -qq texlive-base texlive-latex-base texlive-lang-german 2>/dev/null || true
+    echo "Installing TinyTeX..."
+    TINYTEX_DIR="$HOME/.TinyTeX"
+
+    # Download and extract TinyTeX
+    curl -sL https://yihui.org/tinytex/TinyTeX-1.tar.gz | tar xz -C "$HOME"
+
+    # Add to PATH
+    export PATH="$TINYTEX_DIR/bin/x86_64-linux:$PATH"
+
+    # Install additional packages needed for German documents
+    if command -v tlmgr &> /dev/null; then
+        tlmgr install babel-german hyphen-german 2>/dev/null || true
     fi
 fi
 
