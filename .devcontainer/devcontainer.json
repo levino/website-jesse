@@ -9,8 +9,11 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "curl -fsSL https://claude.ai/install.sh | bash && sudo apt-get update && sudo apt-get install -y lilypond",
-	"updateContentCommand": "npm install"
+	"postCreateCommand": "curl -fsSL https://claude.ai/install.sh | bash && sudo apt-get update && sudo apt-get install -y lilypond texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-lang-german texlive-latex-extra",
+	"updateContentCommand": "npm install",
+	"features": {
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	}
 	// Configure tool-specific properties.
 	// "customizations": {},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.

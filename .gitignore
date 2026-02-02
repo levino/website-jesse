@@ -6,6 +6,11 @@ dist/
 .astro/
 public/musik/
 
+# LilyPond/LaTeX build artifacts
+music-sources/*/build/
+music-sources/*/*.pdf
+*.midi
+
 # Cloudflare
 .wrangler/
 .dev.vars

@@ -1,6 +1,6 @@
 #!/bin/bash
 # Build script for Cloudflare Pages
-# Installs LilyPond if needed and runs the full build
+# Installs LilyPond and TeX Live if needed and runs the full build
 
 set -e
 
@@ -34,6 +34,20 @@ if command -v lilypond &> /dev/null; then
 else
     echo "ERROR: LilyPond not available"
     exit 1
+fi
+
+# Check if pdflatex is available (needed for lilypond-book)
+if ! command -v pdflatex &> /dev/null; then
+    echo "Installing TeX Live (basic)..."
+    if command -v apt-get &> /dev/null; then
+        apt-get install -y -qq texlive-base texlive-latex-base texlive-lang-german 2>/dev/null || true
+    fi
+fi
+
+if command -v pdflatex &> /dev/null; then
+    echo "Using pdflatex: $(pdflatex --version | head -1)"
+else
+    echo "WARNING: pdflatex not available, skipping lilypond-book builds"
 fi
 
 # Run the build

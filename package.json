@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "astro dev --host",
     "build:music": "mkdir -p public/musik && for f in music-sources/*.ly; do lilypond -o \"public/musik/$(basename \"${f%.ly}\")\" \"$f\"; done",
-    "build": "npm run build:music && astro build",
+    "build:tredeschin": "cd music-sources/tredeschin && lilypond-book --output=build --pdf tredeschin.lytex && cd build && pdflatex tredeschin.tex && cp tredeschin.pdf ../../../public/musik/",
+    "build": "npm run build:music && npm run build:tredeschin && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },

@@ -1,0 +1,222 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{geometry}
+\usepackage{parskip}
+
+\geometry{
+  left=25mm,
+  right=25mm,
+  top=20mm,
+  bottom=25mm
+}
+
+\newcommand{\rolle}[1]{\textbf{\textit{#1}}}
+\newcommand{\erzaehler}[1]{\par #1\par}
+\newcommand{\dialog}[2]{\par\rolle{#1}: #2\par}
+
+\title{\Huge\textbf{TREDESCHIN}\\[0.5em]\large Ein Singspiel}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\erzaehler{Es waren einmal ein Mann und eine Frau, die hatten dreizehn Kinder. Als das dreizehnte geboren wurde, sagte der Vater zur Mutter:}
+
+\dialog{Vater}{Höre, Frau, ich weiß wahrhaftig nicht, wie der Bub heißen soll. Die Namen aller Verwandten haben wir bei den zwölf andern aufgebracht. Wie könnten wir ihn nur nennen?}
+
+\begin{samepage}
+\dialog{Mutter}{Weisst du, er ist der dreizehnte, und so nennen wir ihn eben Tredeschin.}
+
+\vspace{1.5em}\lilypondfile{musik-01.ly}\vspace{1.5em}
+\end{samepage}
+
+\erzaehler{Und wie die Zeit voranschritt, zeigte es sich, daß Tredeschin gescheiter war als alle andern zusammen.}
+
+\erzaehler{Nur wachsen tat er nicht recht; er blieb immer der kleinste. Aber hell war wie keiner, und Geschichte wußte er und Sprüche und Worte.}
+
+\erzaehler{Das war aber nicht alles. Tredeschin hatte eine Stimme, die sang so fein, wie die Vögelein im Walde zwitschern. Wenn er sang oder auf seiner Geige spielte, so blieben die Leute still und lauschten.}
+
+\vspace{1.5em}\lilypondfile{musik-03.ly}\vspace{1.5em}
+
+\erzaehler{Tredeschin wollte die Welt sehen und eines schönes Tages sagte er zum Vater:}
+
+\vspace{1.5em}\lilypondfile{musik-02.ly}\vspace{1.5em}
+
+\erzaehler{Tredeschin wanderte über Berg und Tal, und kam in eine große und mächtige Stadt mit Türmen und Toren, ging geradewegs in eine ärmliche Herberge und fragte den Wirt:}
+
+\dialog{Tredeschin}{Wo kann ich den König finden? Ich will Dienste bei Hofe nehmen.}
+
+\dialog{Der Wirt}{Ja, das will ich dir wohl sagen, Bürschlein, sieh dort drüben das goldene Haus, da ist der Palast, dort wohnt der König. Aber zuerst setz dich her und wart ein Weilchen; der Meisterknecht wird wohl bald aus dem Stall kommen, um die Kühe des Königs zu tränken, den kannst du fragen, ob eine Stelle für dich frei ist.}
+
+\erzaehler{Tredeschin setzte sich nieder und wartete, aber um sich Kurzweil zu machen, nahm er seine Fiedel hervor und hub an zu spielen, und gleich war die Herberge voller Gäste die lauschten. Da kam gerade der alte Meisterknecht aus dem Stalle. Tredeschin nahm seine Kappe ab und sagte:}
+
+\dialog{Tredeschin}{Grüß Gott, Meister; habt ihr für mich Arbeit im Stall?}
+
+\vspace{1.5em}\lilypondfile{musik-04.ly}\vspace{1.5em}
+
+\dialog{Meisterknecht}{Ich will dich als Knecht annehmen.}
+
+\erzaehler{Tredeschin war es wohl zufrieden. Er sah sich um im Stall, nahm einen Besen zur Hand und fegte, bis alles blitzsauber war. Dann machte er sich an den Krippen mit dem Futter zu schaffen.}
+
+\vspace{1.5em}\lilypondfile{musik-05.ly}\vspace{1.5em}
+
+\textit{(Echo:) schallte, hallte, (Echo:) hallte zur schönen Abendzeit, zur schönen Abendzeit, zur schönen Abendzeit.}
+
+\erzaehler{Und so ward Tredeschin als Stallknecht eingestellt. Und er tat seine Arbeit auch weiterhin so gut, daß alle ihn gern hatten. Allemal am Abend, wenn er die Kühe in den Schloßhof zur Tränke trieb, da sang er aus voller Brust, daß es nur so schallte. Einmal traf es sich, daß der König just am Fenster stand und den Gesang vernahm. Er rief dann schnell die Königin und die Prinzessin, damit auch sie die schöne Stimme hörten. Er fragte den Schreiber:}
+
+\dialog{König}{Wer ist der Sänger?}
+
+\dialog{Schreiber}{Der ist der neue Stallknecht.}
+
+\dialog{Königin}{Es ist doch schade, einen solchen Sänger im Stall zu lassen; geh hinunter und ruf ihn herauf!}
+
+\vspace{1.5em}\lilypondfile{musik-06.ly}\vspace{1.5em}
+
+\erzaehler{Tredeschin ging hinauf in den Saal, spielte und sang vor dem König.}
+
+\dialog{König}{Wißt ihr was, mein junger Freund, in den Stall lasse ich euch nicht zurück; ihr müßt bei mir hier im Schlosse bleiben, damit ich euch jederzeit hören kann.}
+
+\erzaehler{Tredeschin war zufrieden, er spielte und sang für den König und dem Hofgesinde alle Tage, aber immer andere Lieder und neue Weisen. Alle mochten ihn gern, weil er immer willig war und heiteren Gemütes und der König ernannte ihn zum Obermusikmeister.}
+
+\erzaehler{Der Königs Schreiber war aber neidisch und fürchtete, Tredeschin möchte am Ende gar noch Kanzler werden, denn das wäre er selber Leben gern geworden. Er ging mit sich zu rate, wie er Tredeschin verderben könnte. Eines Tages trat er vor den König und sprach:}
+
+\vspace{1.5em}\lilypondfile{musik-07.ly}\vspace{1.5em}
+
+\erzaehler{Wie der König das hörte, wurde er ganz krank vor Begierde nach dem Zauberrosse. Die köstlichsten Speisen auf der Tafel ließ er stehen, des Nachts lag er schlaflos. Immerfort mußte er nur an den Schimmel des großen Zauberers denken, weiß wie frischer Schnee und schnell wie der Wind.}
+
+\erzaehler{Zuletzt ließ er im ganzen Lande kund tun, wer ihm den Schimmel bringe, der solle die Prinzessin zur Frau bekommen und dazu das halbe Reich erhalten. Das hörte auch Tredeschin. Er ging zum König und sagte:}
+
+\vspace{1.5em}\lilypondfile{musik-08.ly}\vspace{1.5em}
+
+\erzaehler{Der König war froh, die Königin aber und noch mehr die Prinzessin wollten Tredeschin nicht ziehen lassen.}
+
+\dialog{Prinzessin}{Er ist noch zu jung und zart! Und wer wird uns singen und spielen, wenn Tredeschin nicht wiederkommt?}
+
+\erzaehler{Aber das half alles nichts, Tredeschin bat sie, guten Mutes zu bleiben und machte sich singend auf den Weg. Abends spät kam er zur Behausung des großen Zauberers.}
+
+\erzaehler{Nachdem er den Stall gefunden hatte, fragte er die Knechte, ob er nicht dort schlafen dürfte.}
+
+\dialog{Tredeschin}{Ich bin ein armer Weinhändler und schon weit gereist heute. Gern will ich euch die Schlafstatt mit einem Tropfen Bestenweins vergelten.}
+
+\erzaehler{Die Knechte ließen ihn ein und stellten ihm ein Nachtmal auf. Tredeschin lobte das prächtige Vieh über die Maßen.}
+
+\dialog{Tredeschin}{Aber habt ihr denn gar keine Pferde?}
+
+\dialog{Oberknecht}{Freilich, freilich; die stehen in einem andern Stall.}
+
+\erzaehler{Tredeschin tat seine Flasche auf, alle saßen zu und begannen wacker zu bechern.}
+
+\vspace{1.5em}\lilypondfile{musik-09.ly}\vspace{1.5em}
+
+\dialog{Oberknecht}{Komm mit mir, guter Freund; jetzt sollt ihr unsere Rosse sehen. Es ist mir zwar bei Strafe von meinem Herrn verboten, aber euch zuliebe tu ich es diesmal.}
+
+\erzaehler{Tredeschin lobte die Rosse sehr.}
+
+\dialog{Tredeschin}{Habt ihr keine Schimmel?}
+
+\dialog{Oberknecht}{Das hat euch der Teufel gesagt; ich will euch auch unsern Schimmel zeigen, den Kopf wird es mich nicht kosten.}
+
+\erzaehler{Er nahm Tredeschin beiseite, führte ihn in einen kleinen Stall, dort stand der Schimmel des Zauberers, weiß wie Schnee und schnell wie der Wind. Nochmal schenkte Tredeschin von besten Wein ein und bald darauf waren alle fest eingeschlafen. Sie saßen da wie Holzklötze, die Köpfe auf dem Tisch.}
+
+\erzaehler{Jetzt nahm Tredeschin sein Wollband, ging in den Stall und umwickelte die Hufe des Schimmels. Er führte ihn vorsichtig in den Hof, schwang sich hinauf und ritt von dannen.}
+
+\erzaehler{Nun wäre es gut gegangen, aber der Papagei des Zauberers hatte alles gesehen und fing an aus Leibeskräften zu schreien:}
+
+\vspace{1.5em}\lilypondfile{musik-10.ly}\vspace{1.5em}
+
+\textit{(mit Zungeschnalzen: gla, gla, gla...)}
+
+\erzaehler{Am nächsten Morgen sah der Schreiber Tredeschin im Schloßhof stehen, mitsamt dem Schimmel, weiß wie Schnee und schnell wie der Wind, da wurde er grün vor Neid und spie Gift und Galle. Aber der König und die Königin waren voller Freude, und erst die Prinzessin!}
+
+\erzaehler{Der König hängte ihm eine schwere goldene Kette um.}
+
+\erzaehler{Aber von dem versprochenen Lohn war nicht mehr die Rede, und Tredeschin getraute sich nicht, danach zu fragen.}
+
+\erzaehler{So verging die Zeit. Da trat der Schreiber wieder vor den König und sprach:}
+
+\vspace{1.5em}\lilypondfile{musik-11.ly}\vspace{1.5em}
+
+\erzaehler{Wie der König das hörte, da wurde er wieder ganz krank vor Begierde nach der Zauberdecke und zuletzt ließ er wieder im ganzen Lande kund tun, wer ihm die Decke bringe, der erhalte seine Tochter zur Frau und obendrein das halbe Königreich.}
+
+\erzaehler{Tredeschin ging nochmals zum König, versprach die Decke zu beschaffen, und bat um eine Leiter und um eine Schnur.}
+
+\vspace{1.5em}\lilypondfile{musik-12.ly}\vspace{1.5em}
+
+\erzaehler{Spät in der Nacht erreichte das Schloß des Zauberers, leise legte er die Leiter an den Fenstersims; laut hörte man den Zauberer schnarchen, offenbar schlief er fest und tief. Tredeschin klomm vorsichtig von Sprosse zu Sprosse und schwang sich in die Kammer hinein.}
+
+\erzaehler{Auf den Zehen schlich er zum Bett und band die Schnur an einen Zipfel der Bettdecke fest. Dann kletterte er schnell wieder hinunter und tat einen Ruck an der Schnur. Da fuhr der Zauberer ärgerlich auf und schrie:}
+
+\vspace{1.5em}\lilypondfile{musik-13.ly}\vspace{1.5em}
+
+\erzaehler{Tredeschin wartete ein Weilchen, und als sie wieder eingeschlafen waren, da zupfte er wieder an der Schnur. Jetzt fuhr die Frau auf und zornig kreischte:}
+
+\dialog{Frau}{He du, jetzt hör aber auf, an der Decke zu zerren!}
+
+\dialog{Zauberer}{Wie? Nicht einmal in der Nacht hat man Ruhe vor dir!}
+
+\textit{(mit Fußgetrampel)}
+
+\erzaehler{Da tat Tredeschin einen raschen Ruck und die Decke flog zum Fenster heraus, ohne daß der Zauberer oder seine Frau in ihrer Wut es bemerkten.}
+
+\erzaehler{Tredeschin nahm die Decke und lief davon, als er an der Küche vorbeikam sah ihn der Papagei und schrie aus Leibeskräfte:}
+
+\vspace{1.5em}\lilypondfile{musik-10.ly}\vspace{1.5em}
+
+\erzaehler{Am nächsten Morgen sah der Schreiber Tredeschin im Schloßhof stehen, mitsamt der blauen Decke, worauf die Sonne, der Mond und die Sterne gestickt waren, da wurde er rot und blau vor Wut. Der König und die Königin freuten sich sehr, am meisten aber die Prinzessin.}
+
+\erzaehler{Vor dem ganzen Hofgesellschaft dankte der König Tredeschin und steckte ihm einen goldenen Siegelring an den Finger; aber von dem versprochenen Lohn war nicht mehr die Rede, und Tredeschin getraute sich nicht, danach zu fragen.}
+
+\erzaehler{So verging die Zeit. Da trat der Schreiber wieder vor den König und sprach:}
+
+\vspace{1.5em}\lilypondfile{musik-15.ly}\vspace{1.5em}
+
+\erzaehler{Und wieder wurde der König krank vor Begierde nach dem Zaubervogel, alles ging wie die andern Male, und er ließ kund tun, wer ihm den Zaubervogel bringe, der bekomme seine Tochter zur Frau und obendrein das halbe Reich. Tredeschin dachte:}
+
+\dialog{Tredeschin}{War das Glück die beiden anderen Male mit dir, so wird es dir jetzt gewiß nicht fehlen.}
+
+\erzaehler{Er ging zum König und sagte, er wolle den Vogel holen und bat um einen Beutel mit Würfelzucker.}
+
+\vspace{1.5em}\lilypondfile{musik-16.ly}\vspace{1.5em}
+
+\erzaehler{Er kleidete sich wie ein Bettler und machte sich auf den Weg. Spät in der Nacht erreichte das Schloß des Zauberers, ging in die Küche und sagte zur Köchin:}
+
+\dialog{Tredeschin}{Ach, ich bin so hungrig; gebt mir um Gotteswillen etwas zu essen; schon viele Tagen habe ich nichts Warmes mehr im Magen gehabt.}
+
+\erzaehler{Die Köchin hatte Mitleid und gab ihm einen Teller warmer Suppe. Wie er nun da am Tische saß und aß, da kam der Stallknecht herein und rief:}
+
+\vspace{1.5em}\lilypondfile{musik-17.ly}\vspace{1.5em}
+
+\erzaehler{Auf sein Geschrei kamen die andern Knechte und Diener herbeigeeilt, und zuletzt kam der große Zauberer selbst. Kaum sah er Tredeschin, so brüllte er:}
+
+\vspace{1.5em}\lilypondfile{musik-18.ly}\vspace{1.5em}
+
+\erzaehler{Tredeschin fiel auf die Knie und flehte:}
+
+\vspace{1.5em}\lilypondfile{musik-19.ly}\vspace{1.5em}
+
+\erzaehler{Doch um Mitternacht, Tredeschin hat sich losgemacht und packt eins, zwei, drei, den Papagei und springt gradaus zum Fenster hinaus! Er trat zum Käfig und fragte den Papagei mit leiser Stimme:}
+
+\dialog{Tredeschin}{Papagei, willst du Zuckerstückchen?}
+
+\erzaehler{Der krächzte: "`Gib nur her, gib nur her!"' und fraß eins um das andere, während Tredeschin mit dem Käfig eilig durch das Fenster stieg und davonlief. Da aber rief der Papagei:}
+
+\vspace{1.5em}\lilypondfile{musik-20.ly}\vspace{1.5em}
+
+\textit{(mit Zungeschnalzen: gla, gla, gla...)}
+
+\erzaehler{Und fort war er mitsamt dem Papagei. Am nächsten Morgen sah der Schreiber Tredeschin im Schloßhof stehen, mitsamt dem Papagei und nun wußte der Schreiber sich auch kein Rat mehr und verschwand auf niemehr wiedersehen.}
+
+\erzaehler{Da war die Freude groß, der König nahm seine Krone, setzte sie Tredeschin aufs Haupt und legte die Hand der Prinzessin in die seine. Es wurde Hochzeit gefeiert; Tredeschin und die Prinzessin lebten glücklich bis am Ende ihrer Tage.}
+
+\vspace{1.5em}\lilypondfile{musik-21.ly}\vspace{1.5em}
+
+\begin{center}
+\vspace{2em}
+\textbf{--- ENDE ---}
+\end{center}
+
+\end{document}
